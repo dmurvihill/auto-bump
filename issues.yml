@@ -1,0 +1,16 @@
+# Issues to keep open. Add one entry per issue.
+#
+# stale_labels: the bot is considered to have flagged the issue if it has
+#   any of these labels. Only then is a comment posted.
+# message: the comment to post (can be overridden per issue).
+defaults:
+  stale_labels:
+    - stale
+  message: "Leave open please"
+
+issues:
+  # stream.Transform limitations on backpressure handling after stream is ended
+  - url: https://github.com/nodejs/node/issues/49302
+  # - url: https://github.com/OWNER/REPO/issues/123
+  #   stale_labels: [inactive]          # optional per-issue override
+  #   message: "Still reproducible on v2.0."  # optional per-issue override
